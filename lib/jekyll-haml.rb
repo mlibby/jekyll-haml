@@ -4,6 +4,8 @@ require "haml-coderay"
 require "jekyll-haml/tags/haml_partial"
 require "jekyll-haml/ext/convertible"
 
+Haml::Filters::CodeRay.encoder_options = { :css => :class }
+
 module Jekyll
   class HamlConverter < Converter
     safe true
