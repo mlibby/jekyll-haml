@@ -19,4 +19,5 @@ Gem::Specification.new do |gem|
 
   gem.add_runtime_dependency 'jekyll', '>= 3.3.0'
   gem.add_runtime_dependency 'haml',   '>= 3.0.0'
+  gem.add_runtime_dependency 'haml-coderay'
 end
