@@ -1,6 +1,6 @@
 require "jekyll-haml/version"
 require "haml"
-
+require "haml-coderay"
 require "jekyll-haml/tags/haml_partial"
 require "jekyll-haml/ext/convertible"
 
